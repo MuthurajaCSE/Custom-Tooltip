@@ -1,0 +1,33 @@
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+
+.custom-tooltip {
+    position: absolute;
+    z-index: 99;
+    top: 35px;
+    margin-left: 5%;
+    font-weight: bold;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    width: 90%;
+    height: 90%;
+    border: 1px solid red;
+    border-radius: 5px;
+}
